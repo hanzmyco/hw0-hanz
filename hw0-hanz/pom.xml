@@ -4,9 +4,9 @@
 	<artifactId>hw0-hanz</artifactId>
 	<version>0.0.1</version>
 	<scm>
-		<connection>scm:git:git@github.com/michaelzhhan1990/hw0-hanz</connection>
-		<developerConnection>scm:git:git@github.com/michaelzhhan1990/hw0-hanz</developerConnection>
-		<url>scm:git:git@github.com/michaelzhhan1990/hw0-hanz</url>
+		<connection>scm:git:git@github.com:michaelzhhan1990/hw0-hanz</connection>
+		<developerConnection>scm:git:git@github.com:michaelzhhan1990/hw0-hanz</developerConnection>
+		<url>scm:git:git@github.com:michaelzhhan1990/hw0-hanz</url>
 	  <tag>hw0-hanz-0.0.1</tag>
   </scm>
 	<repositories>
