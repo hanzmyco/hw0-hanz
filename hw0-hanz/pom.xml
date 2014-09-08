@@ -1,13 +1,14 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.cmu.lti.11791.f14.hw0</groupId>
 	<artifactId>hw0-hanz</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<scm>
-		<connection>scm:git:git@github.com/michaelzhhan1990/hw0-hanz.git</connection>
-		<developerConnection>scm:git:git@github.com/michaelzhhan1990/hw0-hanz.git</developerConnection>
-	</scm>
+		<connection>scm:git:git@github.com/michaelzhhan1990/hw0-hanz</connection>
+		<developerConnection>scm:git:git@github.com/michaelzhhan1990/hw0-hanz</developerConnection>
+		<url>scm:git:git@github.com/michaelzhhan1990/hw0-hanz</url>
+	  <tag>hw0-hanz-0.0.1</tag>
+  </scm>
 	<repositories>
 		<repository>
 			<id>deployment</id>
@@ -39,7 +40,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
-				<version>2.2.1</version>
+				<version>2.5</version>
 				<executions>
 					<execution>
 						<id>default</id>
